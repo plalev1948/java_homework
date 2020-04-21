@@ -1,0 +1,60 @@
+/*Да се реализира програма посредством if-else конструкция, при
+която при подаден месец от годината да се изпечатва в конзолата броят
+на дните в него.Тъй като все още не е демонстрирано по време на
+упражнения функционалност за четене от конзолата, стойността за
+месец трябва да бъде статична(hard coded) в кода на вашата програма
+    (справка: записът от упражнение 2).
+        Например: месец „Май“ -> извежда се „31 дни“. */
+        
+        
+         public class Main {
+public static void numberOfDaysInAMonth() {
+    int monthName = 12;
+
+    if (monthName == "January") {
+        System.out.println("31 дни");
+    }
+
+    else if (monthName == "February") {
+        System.out.println("29 дни");
+
+    } else if (monthName == "March") {
+        System.out.println("31 дни");
+
+    } else if (monthName == "April") {
+        System.out.println("30 дни");
+
+    } else if (monthName == "May") {
+        System.out.println("31 дни");
+
+    } else if (monthName == "June") {
+        System.out.println("30 дни");
+
+    } else if (monthName == "July") {
+        System.out.println("31 дни");
+
+    } else if (monthName == "August") {
+        System.out.println("31 дни");
+
+    } else if (monthName == "September") {
+        System.out.println("30 дни");
+
+    } else if (monthName == "October") {
+        System.out.println("31 дни");
+
+    } else if (monthName == "November") {
+        System.out.println("30 дни");
+
+    }   else if (monthName == "December") {
+            System.out.println("31 дни");
+
+
+    } else {
+
+            System.out.println("No such month");
+    }
+   
+            }
+
+            System.out.println("Number of days: " + monthName);
+        }
