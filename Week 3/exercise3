@@ -1,0 +1,63 @@
+/* Любовник скача от 9-ти етаж и по пътя надолу на всеки един от
+етажите (8, 7, ... (етаж)) поздравява (със System.out.println();)
+живущите на съответните етажи (Мими, Пепи, Ваня, ...). При сблъсък с
+тротоара се чува „Ауч“.
+Основно изискване е програмата да се реализира посредством
+switch-case конструкцията.*/
+
+public class Main {
+public static void loverAccident() {
+    int floorNumber = 5;
+        String neighbourName;
+
+    switch (neighbourName) {
+        case 1:
+            neighbourName = "Мими";
+            System.out.println("Здравей, Миме!");
+            break;
+
+        case 2:
+            neighbourName = "Пепи";
+            System.out.println("Здравей, Пепи!");
+            break;
+
+        case 3:
+            neighbourName = "Ваня";
+            System.out.println("Здравей, Ваня!");
+            break;
+
+        case 4:
+            neighbourName = "Цецо";
+            System.out.println("Здравей, Цецо!");
+            break;
+
+        case 5:
+            neighbourName = "Павлина";
+            System.out.println("Здравей, Пипе!");
+            break;
+
+        case 6:
+            neighbourName = "Румяна";
+            System.out.println("Здравей, Руме!");
+            break;
+
+        case 7:
+            neighbourName = "Николета";
+            System.out.println("Здравей, Лети!");
+            break;
+
+        case 8:
+            neighbourName = "Августин";
+            System.out.println("Здравей, Августине!");
+            break;
+
+        case 9:
+            neighbourName = "Тротоар";
+            System.out.println("Ауч");
+            break;
+        
+        default:
+            neighbourName = "Default neighbourName";
+            System.out.println("Indefined name/floor");
+            break;
+    }
