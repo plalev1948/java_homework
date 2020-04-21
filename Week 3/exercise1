@@ -1,0 +1,31 @@
+/*Да се имплементира функционалност, реализираща изчисляване
+на периметър и лице на правоъгълник.За целта, да се реализира
+клас, в който да се имплементират два метода / функции.
+Единият метод да съдържа функционалност за изчисляване на
+периметър на правоъгълник, а другият да изчислява неговото лице.
+Страните на правоъгълника трябва да бъдат със следните стойности:
+ а = 2 см.
+ b = 6 см.
+При изпълнение на програмата резултатите за лицето и
+периметъра да се изпечатат в конзолата.*/
+
+
+
+
+public class rectangleAreaAndParameter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("a = 2");
+        System.out.print("b = 6");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int area = a * b;
+        int parameter = 2 * a + 2 * b;
+
+        System.out.print("Rectangle area = ");
+        System.out.println(area);
+        System.out.print("Rectangle parameter = ");
+        System.out.println(parameter);
+    }
+}
