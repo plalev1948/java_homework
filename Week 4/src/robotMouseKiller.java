@@ -1,4 +1,4 @@
-	//1-ва точка от задачата
+	//1-РІР° С‚РѕС‡РєР° РѕС‚ Р·Р°РґР°С‡Р°С‚Р°
 import java.util.Scanner;
 
 public class robotMouseKiller {
@@ -19,15 +19,15 @@ public class robotMouseKiller {
         
 		switch (movement) {
         case 1:
-            inFrontOfTheRobot = "Стена";
+            inFrontOfTheRobot = "РЎС‚РµРЅР°";
             System.out.println("Go Sideway!");
             break;
         case 2:
-        	inFrontOfTheRobot = "Стол";
+        	inFrontOfTheRobot = "РЎС‚РѕР»";
             System.out.println ("Jump!");
             break;
         default:
-        	inFrontOfTheRobot = "Нищо";
+        	inFrontOfTheRobot = "РќРёС‰Рѕ";
             System.out.println("Forward!");
             break;
 
@@ -36,26 +36,26 @@ public class robotMouseKiller {
 		System.out.println ("In front of the robot we have: " + inFrontOfTheRobot);
 	}
 		
-	//2-ра точка от задачата
+	//2-СЂР° С‚РѕС‡РєР° РѕС‚ Р·Р°РґР°С‡Р°С‚Р°
 		if ( battleSystem == true) {
-			System.out.println("Мишката е пред робота");
+			System.out.println("РњРёС€РєР°С‚Р° Рµ РїСЂРµРґ СЂРѕР±РѕС‚Р°");
 			}
 			else {
-			System.out.println("Мишката не е пред робота");
+			System.out.println("РњРёС€РєР°С‚Р° РЅРµ Рµ РїСЂРµРґ СЂРѕР±РѕС‚Р°");
 			}
 		
 		if ( battleCapacity == true) {
-			System.out.println("Има ток в батерията");
+			System.out.println("РРјР° С‚РѕРє РІ Р±Р°С‚РµСЂРёСЏС‚Р°");
 			}
 			else {
-			System.out.println("Батерията е празна");
+			System.out.println("Р‘Р°С‚РµСЂРёСЏС‚Р° Рµ РїСЂР°Р·РЅР°");
 			}
 		
 		if ( furnitureHit == true) {
-			System.out.println("Ще ударим мебел в къщата");
+			System.out.println("Р©Рµ СѓРґР°СЂРёРј РјРµР±РµР» РІ РєСЉС‰Р°С‚Р°");
 			}
 			else {
-			System.out.println("Няма да ударим мебел");
+			System.out.println("РќСЏРјР° РґР° СѓРґР°СЂРёРј РјРµР±РµР»");
 			}
 		
 			
@@ -74,31 +74,31 @@ public class robotMouseKiller {
 			System.out.println ("In front of the robot we have: " + inFrontOfTheRobot);
 }
 
-	//3-та точка от зачата
+	//3-С‚Р° С‚РѕС‡РєР° РѕС‚ Р·Р°С‡Р°С‚Р°
 			int testEnergy(num) {		  
 		if (num < 1) {
-			return "Не достатъчно енергия за битка";
+			return "РќРµ РґРѕСЃС‚Р°С‚СЉС‡РЅРѕ РµРЅРµСЂРіРёСЏ Р·Р° Р±РёС‚РєР°";
 			} else if (num > 1) {
-			 return "Маркирай следваща цел";
+			 return "РњР°СЂРєРёСЂР°Р№ СЃР»РµРґРІР°С‰Р° С†РµР»";
 		}
 			}
 			
 			
-	//4-та точка от задачата		
+	//4-С‚Р° С‚РѕС‡РєР° РѕС‚ Р·Р°РґР°С‡Р°С‚Р°		
 			int electicityValue(a, b) {
 				  if (a == b) {
-				    return "Генерирай нови числа";
+				    return "Р“РµРЅРµСЂРёСЂР°Р№ РЅРѕРІРё С‡РёСЃР»Р°";
 				  }
 				  else if (a > b) {
-				    return "Робота има ток";
+				    return "Р РѕР±РѕС‚Р° РёРјР° С‚РѕРє";
 				  }
 				  else {
-				    return "Робота няма ток";
+				    return "Р РѕР±РѕС‚Р° РЅСЏРјР° С‚РѕРє";
 				  }
 				}
 		
          
-	// 5-та точка от задачата 
+	// 5-С‚Р° С‚РѕС‡РєР° РѕС‚ Р·Р°РґР°С‡Р°С‚Р° 
   
 		 robotCommunication (val) {
 		  var answer = "";
