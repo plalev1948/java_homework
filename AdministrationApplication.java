@@ -12,7 +12,7 @@ public class AdministrationApplication {
         int menuOption;
         boolean isRunning = true;
 
-        System.out.print("Âúâåäåòå ×èñëà");
+        System.out.print("Ğ’ÑŠĞ²ĞµĞ´ĞµÑ‚Ğµ Ğ§Ğ¸ÑĞ»Ğ°");
         countOfElements = inputScanner.nextInt();
         int[] inputCollection = new int[countOfElements];
 
@@ -40,22 +40,22 @@ public class AdministrationApplication {
     }
     public static void renderMenu() {
 
-        System.out.println("1. Ğàáîòà ñ ÷èñëà");
-        System.out.println("2. Ğàáîòà ñ äóìè");
-        System.out.println("3. Èçõîä îò ïğîãğàìàòà");
+        System.out.println("1. Ğ Ğ°Ğ±Ğ¾Ñ‚Ğ° Ñ Ñ‡Ğ¸ÑĞ»Ğ°");
+        System.out.println("2. Ğ Ğ°Ğ±Ğ¾Ñ‚Ğ° Ñ Ğ´ÑƒĞ¼Ğ¸");
+        System.out.println("3. Ğ˜Ğ·Ñ…Ğ¾Ğ´ Ğ¾Ñ‚ Ğ¿Ñ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ°Ñ‚Ğ°");
     }
     
     public static int readInputValue(Scanner scannerReference) {
 
         while(true) {
 
-            System.out.print("Èçâåæäàíå ñàìî íà ïğîñòèòå ÷èñëà îò ìàñèâà");
+            System.out.print("Ğ˜Ğ·Ğ²ĞµĞ¶Ğ´Ğ°Ğ½Ğµ ÑĞ°Ğ¼Ğ¾ Ğ½Ğ° Ğ¿Ñ€Ğ¾ÑÑ‚Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ° Ğ¾Ñ‚ Ğ¼Ğ°ÑĞ¸Ğ²Ğ°");
             int input = scannerReference.nextInt();
             if(input >= 1 && input <=100) {
                 return input;
             }
 
-            System.out.println("Ïğîñòè ÷èñëà");
+            System.out.println("ĞŸÑ€Ğ¾ÑÑ‚Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ°");
         }
     }
 
